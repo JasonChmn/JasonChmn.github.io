@@ -78,6 +78,7 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
+<<<<<<< HEAD
           Description about the work on/with the project
   - title: Experience
     layout: list
@@ -89,6 +90,34 @@ content:
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
+=======
+		Thesis on contact planning for humanoid locomotion in the [MEMMO](https://www.memmo-project.eu/) project.
+		I worked on a RL steering method, with a terrain-aware navigation skills, generating a robot root trajectory before contact planning.
+	- layout: left
+        title: Movement Research Lab at Seoul National University, Seoul, South Korea
+   	  sub_title: Master computer science
+        caption: March 2017 - June 2019
+        description: | # this will include new lines to allow paragraphs
+		I worked under the supervision of Pr. Jehee Lee on Reinforcement Learning for character animation and juggling.
+		Double degree with INSA.
+	- layout: left
+        title: Institut National des sciences appliquées (INSA), Toulouse, France
+   	  sub_title: Engineering diploma (BS+MSc)
+        caption: September 2012 - June 2019
+        description: | # this will include new lines to allow paragraphs
+		BSc in computer engineering. 
+		MSc in Telecommunication Networks. 
+		Double degree with Seoul National university.
+	
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+	- layout: left
+        title: LAAS-CNRS, Toulouse, France
+        caption: March - August 2019
+        sub_title: Computer science engineer.
+>>>>>>> parent of 3dd7364 (Update _config.yml)
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
@@ -101,12 +130,42 @@ content:
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
+<<<<<<< HEAD
           Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+=======
+          IEEE-ICRA 2021. High-level approach with a new RL steering method for terrain-aware navigation coupled to a sample-based contact planner.
+	- layout: top-middle
+        title: A physics-based juggling simulation using reinforcement learning
+        link: https://mrl.snu.ac.kr/research/ProjectJuggling/juggling.html
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: https://github.com/JasonChmn/LEAS
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          ACM-MIG 2018. Reinforcement Learning to learn how to throw and catch a ball, and physics-based animation of a character juggling various patterns.
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in machine learning some of my other interests and hobbies are:
+      - Skiing
+      - Weightlifting
+	- Paragliding (soon)
+
+      #Look at this cool image  
+      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+>>>>>>> parent of 3dd7364 (Update _config.yml)
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
