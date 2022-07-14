@@ -1,6 +1,6 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -9,27 +9,13 @@ version: 2
 name: Jason Chemin
 title: Phd student at LAAS-CNRS, Toulouse, France
 email: jchemin [at] laas.fr
-#website: www.github.com/sproogen/resume-theme
-
 # Dark Mode (true/false/never)
 darkmode: false
 
-future: true
-
 # Social links
-#twitter_username: facespics
 github_username:  JasonChmn
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: jchemin
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+
 
 # Additional icon links
 additional_links:
@@ -38,27 +24,38 @@ additional_links:
 - icon: fa-brands fa-linkedin
   url: https://www.linkedin.com/in/jchemin
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Jason and I'm a Phd student in Graphics and Machine learning. 
   I have a double master degree in Informatics and Telecommunications network from INSA (France) and Graphics in Seoul National University (South Korea).
   My research mainly focus on Reinforcement Learning for motion of characters, and I am interested in exploring new fields of application for machine learning !
 
 content:
-  
-  
-  - title: Education # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: "LEAS: Learning to steer a locomotion contact planner" - ICRA 2021
+        link: https://ieeexplore.ieee.org/document/9561160
+        description: | # this will include new lines to allow paragraphs
+          A new RL steering method for terrain-aware navigation coupled to a sample-based contact planner.
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: LAAS-CNRS, Toulouse, France
+        caption: March - August 2019
+        sub_title: Computer science engineer.
+        description: | # this will include new lines to allow paragraphs
+          Development of a library for Humanoid Path Planner software.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
         title: LAAS-CNRS, Toulouse, France
         link: https://gepettoweb.laas.fr/index.php/Members/JasonChemin
         # link_text: boringcompany.com
@@ -66,88 +63,20 @@ content:
         caption: september 2019 - Present
         description: | # this will include new lines to allow paragraphs
         Thesis on contact planning for humanoid locomotion in the [MEMMO](https://www.memmo-project.eu/) project.
-        I worked on a RL steering method, with a terrain-aware navigation skills, generating a robot root trajectory before contact planning.
-    - layout: left
-        title: Movement Research Lab at Seoul National University, Seoul, South Korea
-         sub_title: Master computer science
-        caption: March 2017 - June 2019
-        description: | # this will include new lines to allow paragraphs
-        I worked under the supervision of Pr. Jehee Lee on Reinforcement Learning for character animation and juggling.
-        Double degree with INSA.
-    - layout: left
-        title: Institut National des sciences appliquées (INSA), Toulouse, France
-         sub_title: Engineering diploma (BS+MSc)
-        caption: September 2012 - June 2019
-        description: | # this will include new lines to allow paragraphs
-        BSc in computer engineering. 
-        MSc in Telecommunication Networks. 
-        Double degree with Seoul National university.
-    
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-    - layout: left
-        title: LAAS-CNRS, Toulouse, France
-        caption: March - August 2019
-        sub_title: Computer science engineer.
-        description: | # this will include new lines to allow paragraphs
-          Development of a library for Humanoid Path Planner software.
-      - layout: left
-        title: Mahidol university, Mahidol, Thailand
-        caption: June - December 2016
-        sub_title: Internship virtual reality
-        description: | # this will include new lines to allow paragraphs
-          MRI visualization using leap motion for the controls.
-
-- title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: LEAS: Learning to steer a locomotion contact planner
-        link: https://ieeexplore.ieee.org/document/9561160
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: https://github.com/JasonChmn/LEAS
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-          IEEE-ICRA 2021. High-level approach with a new RL steering method for terrain-aware navigation coupled to a sample-based contact planner.
-    - layout: top-middle
-        title: A physics-based juggling simulation using reinforcement learning
-        link: https://mrl.snu.ac.kr/research/ProjectJuggling/juggling.html
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: https://github.com/JasonChmn/LEAS
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-          ACM-MIG 2018. Reinforcement Learning to learn how to throw and catch a ball, and physics-based animation of a character juggling various patterns.
-
-
+        I worked on a high-level approach with deep RL for contact planning. 
+        Especially the development of a steering method with a terrain-aware navigation skills, generating a robot root trajectory before contact planning.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in machine learning some of my other interests and hobbies are:
-      - Skiing
-      - Weightlifting
-    - Paragliding (soon)
-
-      #Look at this cool image  
-      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in machine learning some of my other interests and hobbies are : skiing, weightlifting and paragliding (soon) !
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -155,3 +84,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
