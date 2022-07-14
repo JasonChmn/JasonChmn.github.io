@@ -65,29 +65,29 @@ content:
         sub_title: Phd student
         caption: september 2019 - Present
         description: | # this will include new lines to allow paragraphs
-		Thesis on contact planning for humanoid locomotion in the [MEMMO](https://www.memmo-project.eu/) project.
-		I worked on a RL steering method, with a terrain-aware navigation skills, generating a robot root trajectory before contact planning.
-	- layout: left
+        Thesis on contact planning for humanoid locomotion in the [MEMMO](https://www.memmo-project.eu/) project.
+        I worked on a RL steering method, with a terrain-aware navigation skills, generating a robot root trajectory before contact planning.
+    - layout: left
         title: Movement Research Lab at Seoul National University, Seoul, South Korea
-   	  sub_title: Master computer science
+         sub_title: Master computer science
         caption: March 2017 - June 2019
         description: | # this will include new lines to allow paragraphs
-		I worked under the supervision of Pr. Jehee Lee on Reinforcement Learning for character animation and juggling.
-		Double degree with INSA.
-	- layout: left
+        I worked under the supervision of Pr. Jehee Lee on Reinforcement Learning for character animation and juggling.
+        Double degree with INSA.
+    - layout: left
         title: Institut National des sciences appliquées (INSA), Toulouse, France
-   	  sub_title: Engineering diploma (BS+MSc)
+         sub_title: Engineering diploma (BS+MSc)
         caption: September 2012 - June 2019
         description: | # this will include new lines to allow paragraphs
-		BSc in computer engineering. 
-		MSc in Telecommunication Networks. 
-		Double degree with Seoul National university.
-	
+        BSc in computer engineering. 
+        MSc in Telecommunication Networks. 
+        Double degree with Seoul National university.
+    
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-	- layout: left
+    - layout: left
         title: LAAS-CNRS, Toulouse, France
         caption: March - August 2019
         sub_title: Computer science engineer.
@@ -116,7 +116,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           IEEE-ICRA 2021. High-level approach with a new RL steering method for terrain-aware navigation coupled to a sample-based contact planner.
-	- layout: top-middle
+    - layout: top-middle
         title: A physics-based juggling simulation using reinforcement learning
         link: https://mrl.snu.ac.kr/research/ProjectJuggling/juggling.html
         # link_text: Project Website
@@ -137,7 +137,7 @@ content:
       Alongside my interests in machine learning some of my other interests and hobbies are:
       - Skiing
       - Weightlifting
-	- Paragliding (soon)
+    - Paragliding (soon)
 
       #Look at this cool image  
       #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
